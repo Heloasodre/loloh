@@ -1,46 +1,193 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Blog</title>
+
+<title>Blog do Hélio</title>
 
 <style>
-header {
-background-color: blue;
-background-color: #FFFFFF;
-color: #183C63;
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
-max-width: 800px;
-margin: 0 auto;
-border: 5px solid #cf1010;
-padding: 16px;
-header {
-background-color: #183C63;
-color: #FFFFFF;
-text-align: center;
-max-width: 800px;
-margin: 0 auto;
-padding: 16px;
-</style>
 
+body {
+font-family: Arial, sans-serif;
+background: #f4f4f4;
+color: #333;
+}
+
+header {
+background: #222;
+color: white;
+text-align: center;
+padding: 40px 20px;
+}
+
+header h1 {
+font-size: 42px;
+margin-bottom: 10px;
+}
+
+header p {
+font-size: 18px;
+color: #ddd;
+}
+
+nav {
+background: #333;
+text-align: center;
+padding: 15px;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+margin: 0 15px;
+font-size: 16px;
+}
+
+nav a:hover {
+color: #aaa;
+}
+
+main {
+max-width: 900px;
+margin: 40px auto;
+padding: 0 20px;
+}
+
+section {
+background: white;
+padding: 30px;
+margin-bottom: 25px;
+border-radius: 12px;
+box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+margin-bottom: 15px;
+color: #222;
+}
+
+section p {
+font-size: 17px;
+line-height: 1.7;
+}
+
+.destaque {
+text-align: center;
+background: #e9e9e9;
+}
+
+.destaque h2 {
+font-size: 28px;
+}
+
+.interesses {
+display: flex;
+flex-wrap: wrap;
+gap: 12px;
+margin-top: 20px;
+}
+
+.interesses span {
+background: #222;
+color: white;
+padding: 10px 16px;
+border-radius: 20px;
+}
+
+footer {
+background: #222;
+color: white;
+text-align: center;
+padding: 25px;
+margin-top: 40px;
+}
+
+footer p {
+font-size: 15px;
+}
+</style>
 </head>
+
 <body>
-    <h2>Meu primeiro post</h2>
+
 <header>
-<h1>Meu blog tech</h1>
-<p>Vou compartilhar conhecimentos sobre tecnologia e programação</p>
+<h1>Blog do Hélio</h1>
+<p>Um pouco sobre mim, meus interesses e minha história</p>
 </header>
+
+<nav>
+<a href="#sobre">Sobre mim</a>
+<a href="#interesses">Interesses</a>
+<a href="#objetivos">Objetivos</a>
+</nav>
+
 <main>
-    <p>Por: heloa</p>
-    <p>Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação e curiosidades da área de tecnologia.</p>
+
+<section class="destaque">
+<h2>Olá, eu sou o Heloa!</h2>
+<p>
+Seja bem-vindo ao meu blog pessoal.
+Aqui compartilho um pouco sobre quem eu sou,
+meus interesses, meus objetivos e algumas coisas
+que fazem parte da minha vida.
+</p>
+</section>
+
+<section id="sobre">
+<h2>Sobre mim</h2>
+
+<p>
+Meu nome é Heloa sodre. Sou uma pessoa que gosta de aprender
+coisas novas, descobrir novos assuntos e aproveitar
+bons momentos. Este blog foi criado para apresentar
+um pouco mais sobre mim e registrar algumas das coisas
+que fazem parte da minha trajetória.
+</p>
+</section>
+
+<section id="interesses">
+<h2>Meus interesses</h2>
+
+<p>
+Tenho interesse em diferentes assuntos e gosto de
+conhecer coisas novas. Alguns dos temas que fazem
+parte dos meus interesses são:
+</p>
+
+<div class="interesses">
+<span>Tecnologia</span>
+<span>Música</span>
+<span>Filmes</span>
+<span>Jogos</span>
+<span>Viagens</span>
+<span>Novidades</span>
+</div>
+</section>
+
+<section id="objetivos">
+<h2>Meus objetivos</h2>
+
+<p>
+Quero continuar aprendendo, evoluindo e conquistando
+meus objetivos. Acredito que cada experiência pode
+ensinar alguma coisa e ajudar no crescimento pessoal.
+Meu objetivo é sempre buscar novas oportunidades e
+construir um futuro do qual eu possa me orgulhar.
+</p>
+</section>
+
 </main>
+
+<footer>
+<p>© 2026 - Blog do Hélio</p>
+<p>Feito por Hélio</p>
+</footer>
+
 </body>
 </html>
-
-
-}<img src="" alt="">
-<img src="imagem-blog.png" alt="logotipo conceitual de tecnologia e educação: um livro aberto de onde emerge um cérebro digital brilhante, cercado por ícones de Wi-Fi, circuitos e lâmpada de ideia. Cores em tons de azul e branco.">
-img {
-width: 80px;
