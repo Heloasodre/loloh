@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Blog do Hélio</title>
+<title>Blog da Heloá</title>
 
 <style>
 * {
@@ -15,15 +15,15 @@ box-sizing: border-box;
 
 body {
 font-family: Arial, sans-serif;
-background: #f4f4f4;
+background-color: #fce4ec;
 color: #333;
 }
 
 header {
-background: #222;
+background-color: #ad1457;
 color: white;
 text-align: center;
-padding: 40px 20px;
+padding: 45px 20px;
 }
 
 header h1 {
@@ -33,11 +33,10 @@ margin-bottom: 10px;
 
 header p {
 font-size: 18px;
-color: #ddd;
 }
 
 nav {
-background: #333;
+background-color: #880e4f;
 text-align: center;
 padding: 15px;
 }
@@ -50,26 +49,26 @@ font-size: 16px;
 }
 
 nav a:hover {
-color: #aaa;
+text-decoration: underline;
 }
 
 main {
 max-width: 900px;
-margin: 40px auto;
+margin: 35px auto;
 padding: 0 20px;
 }
 
 section {
-background: white;
+background-color: white;
 padding: 30px;
 margin-bottom: 25px;
-border-radius: 12px;
-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+border-radius: 15px;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.10);
 }
 
 section h2 {
+color: #ad1457;
 margin-bottom: 15px;
-color: #222;
 }
 
 section p {
@@ -77,31 +76,31 @@ font-size: 17px;
 line-height: 1.7;
 }
 
-.destaque {
+.inicio {
 text-align: center;
-background: #e9e9e9;
 }
 
-.destaque h2 {
+.inicio h2 {
 font-size: 28px;
 }
 
 .interesses {
 display: flex;
 flex-wrap: wrap;
-gap: 12px;
+gap: 10px;
 margin-top: 20px;
 }
 
 .interesses span {
-background: #222;
-color: white;
+background-color: #f8bbd0;
+color: #880e4f;
 padding: 10px 16px;
 border-radius: 20px;
+font-weight: bold;
 }
 
 footer {
-background: #222;
+background-color: #880e4f;
 color: white;
 text-align: center;
 padding: 25px;
@@ -109,7 +108,22 @@ margin-top: 40px;
 }
 
 footer p {
-font-size: 15px;
+margin: 5px;
+}
+
+@media (max-width: 600px) {
+header h1 {
+font-size: 32px;
+}
+
+nav a {
+margin: 0 7px;
+font-size: 14px;
+}
+
+section {
+padding: 22px;
+}
 }
 </style>
 </head>
@@ -117,11 +131,12 @@ font-size: 15px;
 <body>
 
 <header>
-<h1>Blog do Hélio</h1>
-<p>Um pouco sobre mim, meus interesses e minha história</p>
+<h1>Blog da Heloá</h1>
+<p>Um pouco sobre mim</p>
 </header>
 
 <nav>
+<a href="#inicio">Início</a>
 <a href="#sobre">Sobre mim</a>
 <a href="#interesses">Interesses</a>
 <a href="#objetivos">Objetivos</a>
@@ -129,13 +144,13 @@ font-size: 15px;
 
 <main>
 
-<section class="destaque">
-<h2>Olá, eu sou o Heloa!</h2>
+<section id="inicio" class="inicio">
+<h2>Olá, eu sou a Heloá!</h2>
+
 <p>
 Seja bem-vindo ao meu blog pessoal.
-Aqui compartilho um pouco sobre quem eu sou,
-meus interesses, meus objetivos e algumas coisas
-que fazem parte da minha vida.
+Aqui você pode conhecer um pouco mais sobre mim,
+meus interesses e meus objetivos.
 </p>
 </section>
 
@@ -143,11 +158,9 @@ que fazem parte da minha vida.
 <h2>Sobre mim</h2>
 
 <p>
-Meu nome é Heloa sodre. Sou uma pessoa que gosta de aprender
-coisas novas, descobrir novos assuntos e aproveitar
-bons momentos. Este blog foi criado para apresentar
-um pouco mais sobre mim e registrar algumas das coisas
-que fazem parte da minha trajetória.
+Meu nome é Heloá. Sou uma pessoa que gosta de aprender
+coisas novas, conhecer lugares diferentes e aproveitar
+momentos especiais com as pessoas que fazem parte da minha vida.
 </p>
 </section>
 
@@ -155,18 +168,17 @@ que fazem parte da minha trajetória.
 <h2>Meus interesses</h2>
 
 <p>
-Tenho interesse em diferentes assuntos e gosto de
-conhecer coisas novas. Alguns dos temas que fazem
-parte dos meus interesses são:
+Tenho vários interesses e gosto de descobrir novos assuntos.
+Algumas das coisas que gosto são:
 </p>
 
 <div class="interesses">
-<span>Tecnologia</span>
 <span>Música</span>
 <span>Filmes</span>
-<span>Jogos</span>
+<span>Fotografia</span>
+<span>Tecnologia</span>
 <span>Viagens</span>
-<span>Novidades</span>
+<span>Novas experiências</span>
 </div>
 </section>
 
@@ -174,14 +186,18 @@ parte dos meus interesses são:
 <h2>Meus objetivos</h2>
 
 <p>
-Quero continuar aprendendo, evoluindo e conquistando
-meus objetivos. Acredito que cada experiência pode
-ensinar alguma coisa e ajudar no crescimento pessoal.
-Meu objetivo é sempre buscar novas oportunidades e
-construir um futuro do qual eu possa me orgulhar.
+Quero continuar aprendendo, evoluindo e realizando meus sonhos.
+Acredito que cada experiência é uma oportunidade para crescer
+e aprender algo novo.
 </p>
 </section>
 
+</main>
+
+<footer>
+<p>Blog da Heloá</p>
+<p>© 2026 - Todos os direitos reservados</p>
+</footer>
 
 </body>
 </html>
